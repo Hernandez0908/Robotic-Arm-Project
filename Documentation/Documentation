@@ -13,3 +13,28 @@ none yet
 Learned how I will organize and document the project using Github 
 ### Next Steps 
 Begin defining the robotic arm requirements and major components
+## August 20, 2026
+### Goal
+-Create base and arm link 1
+-Update Phase Planning
+### Work completed
+-Successfully made base and arm link 1 
+### Problems
+-Plate was passing through the column centre 
+-C-shaped notch on plate back face 
+-Pivot hole was cut into the column instead of the plate
+-Base disk orphaned in root component 
+-Arm link 1 was nested inside base 
+-Column and plate overlap in 3D space
+-Pivot hole only 50% visible (Semicircle)
+-Orphan sketches in timeline
+### What I learned 
+-Issues 1, 2, 6, and 7 were all connected because the plate was through the column centre rather than beside it
+-Issues 3, 4, 5, and 8 were all operational errors during contruction that were corrected
+-Plan the assembly structure BEFORE creating any geometry. Creating the geometry first can cause all sorts of problems like wrong body assignments, nested components, orphaned bodies, pivot hole landing in the wrong place.
+-Before I create a sketch I should ask myself, How many components does this assembly have? Which components owns which body? Which component will move and which will be grounded?
+-I should have one component per link, created as empty component, then geometry built inside each one. (Component first, then geometry inside of it)
+-Create each moving part inside its own component from the very beginning 
+-Steps: Create component, Activate component, Build geometry inside, Repeat for next component
+-Sketch planes matter, choose based on the extrusion axis and not just convience 
+-Ask myself, In which direction will I extrude? Will the extrusion path intersect any existing geometry? Does the plate need to pass through the column, or sit beside it?
