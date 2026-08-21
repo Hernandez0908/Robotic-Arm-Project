@@ -276,3 +276,15 @@ The modular approach will allow individual components to be replaced or redesign
 ## Status
 
 Joint architecture established. Ready to begin detailed mechanical CAD design.
+
+## Status 
+
+Created and separated base and arm link 1 components 
+Added 20 mm pivot hole to arm link 1
+Created ShoulderRevoluteJoint.
+Joint axis: X-axis.
+Base is grounded.
+Arm Link 1 rotates freely around the pivot.
+Verified the joint using Fusion 360’s Drive Joints tool.
+
+
